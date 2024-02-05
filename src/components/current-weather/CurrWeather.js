@@ -9,7 +9,7 @@ const CurrentWeather = ({ data }) => {
                     <p className="city">{data.city.toUpperCase()}</p>
                     <p className="weather-description">{data.weather[0].description.toUpperCase()}</p>
                 </div>
-                <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`} />
+                <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png` }/>
             </div>
             <div className="bottom">
                 <p className="temp">{Math.round(data.main.temp)}°C</p>

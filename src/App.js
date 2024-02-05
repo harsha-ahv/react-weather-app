@@ -3,6 +3,7 @@ import "./App.css";
 import Search from "./components/search/Search";
 import CurrWeather from "./components/current-weather/CurrWeather";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./Tapi";
+import Forecast from "./components/forecast/Forecast";
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
@@ -33,6 +34,7 @@ function App() {
     <div className="container">
       <Search  OnSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrWeather data={currentWeather} />}
+      {forecast && <Forecast data={forecast}/>}
     </div>
   );
 }
