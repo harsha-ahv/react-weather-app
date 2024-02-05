@@ -39,6 +39,8 @@
   }
   
   .daily-details-grid {
+    background-color: #f5f5f5;
+    border-radius: 15px;
     grid-row-gap: 0;
     grid-column-gap: 15px;
     -webkit-column-gap: 15px;
