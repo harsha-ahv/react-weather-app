@@ -7,8 +7,8 @@ body {
 
 .chatbot-icon {
   position: fixed;
-  top:620px;
-  left:1423px;
+  bottom:90px;
+  right:50px;
   background-color: #4CAF50;
   color: white;
   padding: 10px;
@@ -45,8 +45,8 @@ body {
 .info{
   font-family: 'Arial', sans-serif;
   position: fixed;
-  top:500px;
-  left:1400px;
+  bottom:150px;
+  right:30px;
   font-size: 1.2em;
   color: black;
   background-color: rgba(255, 255, 255, 0.45);;
