@@ -14,7 +14,7 @@ const Search =({OnSearchChange})=>{
     }
 
     const loadOptions = async (inputValue)=>{
-        return api.get(`?minPopulation=100&namePrefix=${inputValue}`)
+        return api.get(`?minPopulation=10000&namePrefix=${inputValue}`)
         .then(result=>{
             const res=result.data.data;
             // console.log(res)     
